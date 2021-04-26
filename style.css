@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(156, 187, 192);
+    font-family: helvetica;
+}
+h1{
+    text-align: center;
+    padding: 1rem 1rem;
+}
+p{
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+#name, #email, #number, #dropdown{
+    width: 90%;
+    border-radius: 2rem;
+    height: 2rem;
+}
+#survey-form{
+    display: block;
+    margin: auto;
+    width: 50%;
+    background-color: rgb(155, 155, 209);
+    padding: 2rem 0rem 2rem 2rem;
+    line-height: 2rem;
+    border-radius: 2rem;
+    
+}
+#submit{
+    width: 50%;
+    height: 2rem;
+    background-color: rgb(107, 189, 192);
+    border-radius: 0.5rem;
+}
